@@ -1,0 +1,14 @@
+.product-card {
+  transition: 0.3s;
+}
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12) !important;
+}
+
+.category-card img {
+  transition: 0.3s;
+}
+.category-card:hover img {
+  transform: scale(1.06);
+}
